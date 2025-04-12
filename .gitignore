@@ -1,0 +1,21 @@
+# Entornos virtuales
+venv/
+.env/
+*.env
+
+# Archivos de configuración local
+.vscode/
+__pycache__/
+*.pyc
+
+# Archivos de ejecución o caché
+*.log
+*.sqlite3
+.DS_Store
+
+# Modelos u otros outputs pesados
+*.pt
+*.bin
+
+# Archivos de instalación
+requirements.lock
