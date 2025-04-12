@@ -16,6 +16,3 @@ __pycache__/
 # Modelos u otros outputs pesados
 *.pt
 *.bin
-
-# Archivos de instalación
-requirements.lock
