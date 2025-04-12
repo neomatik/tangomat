@@ -1,0 +1,31 @@
+# Configuración general del sistema CrewAI
+
+llm_provider: openai
+default_model: gpt-4
+temperature: 0.7
+
+agents:
+  arquitecto:
+    model: gpt-4
+    temperature: 0.6
+  estilista:
+    model: gpt-4
+    temperature: 0.75
+  personajes:
+    model: gpt-4
+    temperature: 0.6
+  dialogo:
+    model: gpt-4
+    temperature: 0.7
+  coherencia:
+    model: gpt-4
+    temperature: 0.6
+  tematico:
+    model: gpt-4
+    temperature: 0.65
+  cientifico:
+    model: gpt-4
+    temperature: 0.6
+  supervisor:
+    model: gpt-4
+    temperature: 0.5
